@@ -55,6 +55,9 @@
     "jest-cli": "^15.1.1",
     "vinyl-source-stream": "^1.1.0"
   },
+  "peerDependency": {
+    "react-native": "^0.40.0"
+  },
   "scripts": {
     "build": "./build_releases.sh",
     "release": "./build_releases.sh && npm publish",
